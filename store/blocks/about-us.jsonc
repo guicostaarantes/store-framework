@@ -56,9 +56,9 @@
     }
   },
   "tab-content.item#home2": {
-    "children": ["rich-text#home2"],
+    "children": ["iframe"],
     "props": {
-      "tabId": "electronics"
+      "tabId": "instagram"
     }
   },
   "rich-text#home1": {
@@ -73,6 +73,13 @@
       "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
       "textPosition": "CENTER",
       "font": "t-heading-3"
+    }
+  },
+  "iframe": {
+    "props": {
+      "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
+      "width": 800,
+      "height": 1000
     }
   }
 }
